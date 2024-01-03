@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Home from "./Pages/Home";
+import Shop from "./Pages/Shop";
+import ShopSingle from "./Pages/ShopSingle";
+import Contact from "./Pages/Contact";
+import Cart from "./Pages/Cart";
+import Checkout from "./Pages/Checkout";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+    return (
+        <div>
+            <Home />
+            {/* <Shop /> */}
+            {/* <ShopSingle /> */}
+            {/* <Contact /> */}
+            {/* <Cart /> */}
+            {/* <Checkout /> */}
+        </div>
+    );
+};
 
 export default App;
