@@ -1,12 +1,12 @@
 import React, { useContext } from "react";
-import "./Popular.css";
-import { ShopContext } from "../../Context/ShopContext";
+import "./ReletedProduct.css";
 import Item from "../Item/Item";
+import { ShopContext } from "../../Context/ShopContext";
 
-const Popular = () => {
-    const { productData } = useContext(ShopContext);
+export const ReletedProduct = () => {
+    const { productData: relatedProduct } = useContext(ShopContext);
 
-    const randerItem = productData.map(
+    const randerItem = relatedProduct.map(
         ({ id, image, name, new_price, old_price }) => {
             return (
                 <Item
@@ -22,12 +22,10 @@ const Popular = () => {
     );
 
     return (
-        <div className="popular">
-            <h1>POPULAR IN WOMEN</h1>
+        <div className="related-product">
+            <h1>Related Product</h1>
             <hr />
-            <div className="popular-item">{randerItem}</div>;
+            <div className="related-product-list">{randerItem}</div>
         </div>
     );
 };
-
-export default Popular;

@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./NewCollections.css";
-import newCollection from "../Assets/new_collections";
 import Item from "../Item/Item";
+import { ShopContext } from "../../Context/ShopContext";
 
 const NewCollections = () => {
+    const { newCollection } = useContext(ShopContext);
+
     const randerItem = newCollection.map(
         ({ id, image, name, new_price, old_price }) => {
             return (
