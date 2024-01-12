@@ -2,25 +2,25 @@ import React from 'react'
 
 const CheckoutForm = () => {
     return (
-        <div class="site-section">
-            <div class="container">
-                <div class="row mb-5">
-                    <div class="col-md-12">
-                        <div class="border p-4 rounded" role="alert">
+        <div className="site-section">
+            <div className="container">
+                <div className="row mb-5">
+                    <div className="col-md-12">
+                        <div className="border p-4 rounded" role="alert">
                             Returning customer? <a href="#">Click here</a> to
                             login
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-6 mb-5 mb-md-0">
-                        <h2 class="h3 mb-3 text-black">Billing Details</h2>
-                        <div class="p-3 p-lg-5 border">
-                            <div class="form-group">
+                <div className="row">
+                    <div className="col-md-6 mb-5 mb-md-0">
+                        <h2 className="h3 mb-3 text-black">Billing Details</h2>
+                        <div className="p-3 p-lg-5 border">
+                            <div className="form-group">
                                 <label for="c_country"
-                                    class="text-black">Country <span
-                                        class="text-danger">*</span></label>
-                                <select id="c_country" class="form-control">
+                                    className="text-black">Country <span
+                                        className="text-danger">*</span></label>
+                                <select id="c_country" className="form-control">
                                     <option value="1">Select a country</option>
                                     <option value="2">bangladesh</option>
                                     <option value="3">Algeria</option>
@@ -33,81 +33,81 @@ const CheckoutForm = () => {
                                     </option>
                                 </select>
                             </div>
-                            <div class="form-group row">
-                                <div class="col-md-6">
+                            <div className="form-group row">
+                                <div className="col-md-6">
                                     <label for="c_fname"
-                                        class="text-black">First Name <span
-                                            class="text-danger">*</span></label>
-                                    <input type="text" class="form-control"
+                                        className="text-black">First Name <span
+                                            className="text-danger">*</span></label>
+                                    <input type="text" className="form-control"
                                         id="c_fname" name="c_fname" />
                                 </div>
-                                <div class="col-md-6">
-                                    <label for="c_lname" class="text-black">Last
+                                <div className="col-md-6">
+                                    <label for="c_lname" className="text-black">Last
                                         Name <span
-                                            class="text-danger">*</span></label>
-                                    <input type="text" class="form-control"
+                                            className="text-danger">*</span></label>
+                                    <input type="text" className="form-control"
                                         id="c_lname" name="c_lname" />
                                 </div>
                             </div>
-                            <div class="form-group row">
-                                <div class="col-md-12">
+                            <div className="form-group row">
+                                <div className="col-md-12">
                                     <label for="c_companyname"
-                                        class="text-black">Company Name </label>
-                                    <input type="text" class="form-control"
+                                        className="text-black">Company Name </label>
+                                    <input type="text" className="form-control"
                                         id="c_companyname" name="c_companyname" />
                                 </div>
                             </div>
-                            <div class="form-group row">
-                                <div class="col-md-12">
+                            <div className="form-group row">
+                                <div className="col-md-12">
                                     <label for="c_address"
-                                        class="text-black">Address <span
-                                            class="text-danger">*</span></label>
-                                    <input type="text" class="form-control"
+                                        className="text-black">Address <span
+                                            className="text-danger">*</span></label>
+                                    <input type="text" className="form-control"
                                         id="c_address" name="c_address"
                                         placeholder="Street address" />
                                 </div>
                             </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control"
+                            <div className="form-group">
+                                <input type="text" className="form-control"
                                     placeholder="Apartment, suite, unit etc. (optional)" />
                             </div>
-                            <div class="form-group row">
-                                <div class="col-md-6">
+                            <div className="form-group row">
+                                <div className="col-md-6">
                                     <label for="c_state_country"
-                                        class="text-black">State / Country <span
-                                            class="text-danger">*</span></label>
-                                    <input type="text" class="form-control"
+                                        className="text-black">State / Country <span
+                                            className="text-danger">*</span></label>
+                                    <input type="text" className="form-control"
                                         id="c_state_country"
                                         name="c_state_country" />
                                 </div>
-                                <div class="col-md-6">
+                                <div className="col-md-6">
                                     <label for="c_postal_zip"
-                                        class="text-black">Posta / Zip <span
-                                            class="text-danger">*</span></label>
-                                    <input type="text" class="form-control"
+                                        className="text-black">Posta / Zip <span
+                                            className="text-danger">*</span></label>
+                                    <input type="text" className="form-control"
                                         id="c_postal_zip" name="c_postal_zip" />
                                 </div>
                             </div>
-                            <div class="form-group row mb-5">
-                                <div class="col-md-6">
+                            <div className="form-group row mb-5">
+                                <div className="col-md-6">
                                     <label for="c_email_address"
-                                        class="text-black">Email Address <span
-                                            class="text-danger">*</span></label>
-                                    <input type="text" class="form-control"
+                                        className="text-black">Email Address <span
+                                            className="text-danger">*</span></label>
+                                    <input type="text" className="form-control"
                                         id="c_email_address"
                                         name="c_email_address" />
                                 </div>
-                                <div class="col-md-6">
+                                <div className="col-md-6">
                                     <label for="c_phone"
-                                        class="text-black">Phone <span
-                                            class="text-danger">*</span></label>
-                                    <input type="text" class="form-control"
+                                        className="text-black">Phone <span
+                                            className="text-danger">*</span></label>
+                                    <input type="text" className="form-control"
                                         id="c_phone" name="c_phone"
                                         placeholder="Phone Number" />
                                 </div>
                             </div>
-                            <div class="form-group">
-                                <label for="c_create_account" class="text-black"
+                            <div className="form-group">
+                                <label for="c_create_account" className="text-black"
                                     data-toggle="collapse"
                                     href="#create_an_account" role="button"
                                     aria-expanded="false"
@@ -115,18 +115,18 @@ const CheckoutForm = () => {
                                         type="checkbox" value="1"
                                         id="c_create_account" /> Create an
                                     account?</label>
-                                <div class="collapse" id="create_an_account">
-                                    <div class="py-2">
-                                        <p class="mb-3">Create an account by
+                                <div className="collapse" id="create_an_account">
+                                    <div className="py-2">
+                                        <p className="mb-3">Create an account by
                                             entering the information below. If
                                             you are a returning customer please
                                             login at the top of the page.</p>
-                                        <div class="form-group">
+                                        <div className="form-group">
                                             <label for="c_account_password"
-                                                class="text-black">Account
+                                                className="text-black">Account
                                                 Password</label>
                                             <input type="email"
-                                                class="form-control"
+                                                className="form-control"
                                                 id="c_account_password"
                                                 name="c_account_password"
                                                 placeholder="" />
@@ -134,24 +134,24 @@ const CheckoutForm = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div class="form-group">
+                            <div className="form-group">
                                 <label for="c_ship_different_address"
-                                    class="text-black" data-toggle="collapse"
+                                    className="text-black" data-toggle="collapse"
                                     href="#ship_different_address" role="button"
                                     aria-expanded="false"
                                     aria-controls="ship_different_address"><input
                                         type="checkbox" value="1"
                                         id="c_ship_different_address" /> Ship To A
                                     Different Address?</label>
-                                <div class="collapse"
+                                <div className="collapse"
                                     id="ship_different_address">
-                                    <div class="py-2">
-                                        <div class="form-group">
+                                    <div className="py-2">
+                                        <div className="form-group">
                                             <label for="c_diff_country"
-                                                class="text-black">Country <span
-                                                    class="text-danger">*</span></label>
+                                                className="text-black">Country <span
+                                                    className="text-danger">*</span></label>
                                             <select id="c_diff_country"
-                                                class="form-control">
+                                                className="form-control">
                                                 <option value="1">Select a
                                                     country</option>
                                                 <option value="2">bangladesh
@@ -171,99 +171,99 @@ const CheckoutForm = () => {
                                                     Republic</option>
                                             </select>
                                         </div>
-                                        <div class="form-group row">
-                                            <div class="col-md-6">
+                                        <div className="form-group row">
+                                            <div className="col-md-6">
                                                 <label for="c_diff_fname"
-                                                    class="text-black">First
+                                                    className="text-black">First
                                                     Name <span
-                                                        class="text-danger">*</span></label>
+                                                        className="text-danger">*</span></label>
                                                 <input type="text"
-                                                    class="form-control"
+                                                    className="form-control"
                                                     id="c_diff_fname"
                                                     name="c_diff_fname" />
                                             </div>
-                                            <div class="col-md-6">
+                                            <div className="col-md-6">
                                                 <label for="c_diff_lname"
-                                                    class="text-black">Last Name
+                                                    className="text-black">Last Name
                                                     <span
-                                                        class="text-danger">*</span></label>
+                                                        className="text-danger">*</span></label>
                                                 <input type="text"
-                                                    class="form-control"
+                                                    className="form-control"
                                                     id="c_diff_lname"
                                                     name="c_diff_lname" />
                                             </div>
                                         </div>
-                                        <div class="form-group row">
-                                            <div class="col-md-12">
+                                        <div className="form-group row">
+                                            <div className="col-md-12">
                                                 <label for="c_diff_companyname"
-                                                    class="text-black">Company
+                                                    className="text-black">Company
                                                     Name </label>
                                                 <input type="text"
-                                                    class="form-control"
+                                                    className="form-control"
                                                     id="c_diff_companyname"
                                                     name="c_diff_companyname" />
                                             </div>
                                         </div>
-                                        <div class="form-group row">
-                                            <div class="col-md-12">
+                                        <div className="form-group row">
+                                            <div className="col-md-12">
                                                 <label for="c_diff_address"
-                                                    class="text-black">Address
+                                                    className="text-black">Address
                                                     <span
-                                                        class="text-danger">*</span></label>
+                                                        className="text-danger">*</span></label>
                                                 <input type="text"
-                                                    class="form-control"
+                                                    className="form-control"
                                                     id="c_diff_address"
                                                     name="c_diff_address"
                                                     placeholder="Street address" />
                                             </div>
                                         </div>
-                                        <div class="form-group">
+                                        <div className="form-group">
                                             <input type="text"
-                                                class="form-control"
+                                                className="form-control"
                                                 placeholder="Apartment, suite, unit etc. (optional)" />
                                         </div>
-                                        <div class="form-group row">
-                                            <div class="col-md-6">
+                                        <div className="form-group row">
+                                            <div className="col-md-6">
                                                 <label
                                                     for="c_diff_state_country"
-                                                    class="text-black">State /
+                                                    className="text-black">State /
                                                     Country <span
-                                                        class="text-danger">*</span></label>
+                                                        className="text-danger">*</span></label>
                                                 <input type="text"
-                                                    class="form-control"
+                                                    className="form-control"
                                                     id="c_diff_state_country"
                                                     name="c_diff_state_country" />
                                             </div>
-                                            <div class="col-md-6">
+                                            <div className="col-md-6">
                                                 <label for="c_diff_postal_zip"
-                                                    class="text-black">Posta /
+                                                    className="text-black">Posta /
                                                     Zip <span
-                                                        class="text-danger">*</span></label>
+                                                        className="text-danger">*</span></label>
                                                 <input type="text"
-                                                    class="form-control"
+                                                    className="form-control"
                                                     id="c_diff_postal_zip"
                                                     name="c_diff_postal_zip" />
                                             </div>
                                         </div>
-                                        <div class="form-group row mb-5">
-                                            <div class="col-md-6">
+                                        <div className="form-group row mb-5">
+                                            <div className="col-md-6">
                                                 <label
                                                     for="c_diff_email_address"
-                                                    class="text-black">Email
+                                                    className="text-black">Email
                                                     Address <span
-                                                        class="text-danger">*</span></label>
+                                                        className="text-danger">*</span></label>
                                                 <input type="text"
-                                                    class="form-control"
+                                                    className="form-control"
                                                     id="c_diff_email_address"
                                                     name="c_diff_email_address" />
                                             </div>
-                                            <div class="col-md-6">
+                                            <div className="col-md-6">
                                                 <label for="c_diff_phone"
-                                                    class="text-black">Phone
+                                                    className="text-black">Phone
                                                     <span
-                                                        class="text-danger">*</span></label>
+                                                        className="text-danger">*</span></label>
                                                 <input type="text"
-                                                    class="form-control"
+                                                    className="form-control"
                                                     id="c_diff_phone"
                                                     name="c_diff_phone"
                                                     placeholder="Phone Number" />
@@ -272,33 +272,33 @@ const CheckoutForm = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div class="form-group">
+                            <div className="form-group">
                                 <label for="c_order_notes"
-                                    class="text-black">Order Notes</label>
+                                    className="text-black">Order Notes</label>
                                 <textarea name="c_order_notes"
                                     id="c_order_notes" cols="30" rows="5"
-                                    class="form-control"
+                                    className="form-control"
                                     placeholder="Write your notes here..."></textarea>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="row mb-5">
-                            <div class="col-md-12">
-                                <h2 class="h3 mb-3 text-black">Coupon Code</h2>
-                                <div class="p-3 p-lg-5 border">
+                    <div className="col-md-6">
+                        <div className="row mb-5">
+                            <div className="col-md-12">
+                                <h2 className="h3 mb-3 text-black">Coupon Code</h2>
+                                <div className="p-3 p-lg-5 border">
                                     <label for="c_code"
-                                        class="text-black mb-3">Enter your
+                                        className="text-black mb-3">Enter your
                                         coupon code if you have one</label>
-                                    <div class="input-group w-75">
-                                        <input type="text" class="form-control"
+                                    <div className="input-group w-75">
+                                        <input type="text" className="form-control"
                                             id="c_code"
                                             placeholder="Coupon Code"
                                             aria-label="Coupon Code"
                                             aria-describedby="button-addon2" />
-                                        <div class="input-group-append">
+                                        <div className="input-group-append">
                                             <button
-                                                class="btn btn-primary btn-sm px-4"
+                                                className="btn btn-primary btn-sm px-4"
                                                 type="button"
                                                 id="button-addon2">Apply</button>
                                         </div>
@@ -306,12 +306,12 @@ const CheckoutForm = () => {
                                 </div>
                             </div>
                         </div>
-                        <div class="row mb-5">
-                            <div class="col-md-12">
-                                <h2 class="h3 mb-3 text-black">Your Order</h2>
-                                <div class="p-3 p-lg-5 border">
+                        <div className="row mb-5">
+                            <div className="col-md-12">
+                                <h2 className="h3 mb-3 text-black">Your Order</h2>
+                                <div className="p-3 p-lg-5 border">
                                     <table
-                                        class="table site-block-order-table mb-5">
+                                        className="table site-block-order-table mb-5">
                                         <thead>
                                             <th>Product</th>
                                             <th>Total</th>
@@ -319,47 +319,47 @@ const CheckoutForm = () => {
                                         <tbody>
                                             <tr>
                                                 <td>Top Up T-Shirt <strong
-                                                    class="mx-2">x</strong>
+                                                    className="mx-2">x</strong>
                                                     1</td>
                                                 <td>$250.00</td>
                                             </tr>
                                             <tr>
                                                 <td>Polo Shirt <strong
-                                                    class="mx-2">x</strong>
+                                                    className="mx-2">x</strong>
                                                     1</td>
                                                 <td>$100.00</td>
                                             </tr>
                                             <tr>
                                                 <td
-                                                    class="text-black font-weight-bold">
+                                                    className="text-black font-weight-bold">
                                                     <strong>Cart
                                                         Subtotal</strong></td>
-                                                <td class="text-black">$350.00
+                                                <td className="text-black">$350.00
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td
-                                                    class="text-black font-weight-bold">
+                                                    className="text-black font-weight-bold">
                                                     <strong>Order Total</strong>
                                                 </td>
                                                 <td
-                                                    class="text-black font-weight-bold">
+                                                    className="text-black font-weight-bold">
                                                     <strong>$350.00</strong>
                                                 </td>
                                             </tr>
                                         </tbody>
                                     </table>
-                                    <div class="border p-3 mb-3">
-                                        <h3 class="h6 mb-0"><a class="d-block"
+                                    <div className="border p-3 mb-3">
+                                        <h3 className="h6 mb-0"><a className="d-block"
                                             data-toggle="collapse"
                                             href="#collapsebank"
                                             role="button"
                                             aria-expanded="false"
                                             aria-controls="collapsebank">Direct
                                             Bank Transfer</a></h3>
-                                        <div class="collapse" id="collapsebank">
-                                            <div class="py-2">
-                                                <p class="mb-0">Make your
+                                        <div className="collapse" id="collapsebank">
+                                            <div className="py-2">
+                                                <p className="mb-0">Make your
                                                     payment directly into our
                                                     bank account. Please use
                                                     your Order ID as the payment
@@ -370,18 +370,18 @@ const CheckoutForm = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="border p-3 mb-3">
-                                        <h3 class="h6 mb-0"><a class="d-block"
+                                    <div className="border p-3 mb-3">
+                                        <h3 className="h6 mb-0"><a className="d-block"
                                             data-toggle="collapse"
                                             href="#collapsecheque"
                                             role="button"
                                             aria-expanded="false"
                                             aria-controls="collapsecheque">Cheque
                                             Payment</a></h3>
-                                        <div class="collapse"
+                                        <div className="collapse"
                                             id="collapsecheque">
-                                            <div class="py-2">
-                                                <p class="mb-0">Make your
+                                            <div className="py-2">
+                                                <p className="mb-0">Make your
                                                     payment directly into our
                                                     bank account. Please use
                                                     your Order ID as the payment
@@ -392,18 +392,18 @@ const CheckoutForm = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="border p-3 mb-5">
-                                        <h3 class="h6 mb-0"><a class="d-block"
+                                    <div className="border p-3 mb-5">
+                                        <h3 className="h6 mb-0"><a className="d-block"
                                             data-toggle="collapse"
                                             href="#collapsepaypal"
                                             role="button"
                                             aria-expanded="false"
                                             aria-controls="collapsepaypal">Paypal</a>
                                         </h3>
-                                        <div class="collapse"
+                                        <div className="collapse"
                                             id="collapsepaypal">
-                                            <div class="py-2">
-                                                <p class="mb-0">Make your
+                                            <div className="py-2">
+                                                <p className="mb-0">Make your
                                                     payment directly into our
                                                     bank account. Please use
                                                     your Order ID as the payment
@@ -414,9 +414,9 @@ const CheckoutForm = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="form-group">
+                                    <div className="form-group">
                                         <button
-                                            class="btn btn-primary btn-lg btn-block"
+                                            className="btn btn-primary btn-lg btn-block"
                                             onclick="window.location='thankyou.html'">Place
                                             Order</button>
                                     </div>

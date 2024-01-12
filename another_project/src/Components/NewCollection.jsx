@@ -2,33 +2,33 @@ import React from 'react'
 
 const NewCollection = () => {
     return (
-        <div class="site-section">
-            <div class="container">
-                <div class="title-section mb-5">
-                    <h2 class="text-uppercase"><span
-                        class="d-block">Discover</span> The Collections</h2>
+        <div className="site-section">
+            <div className="container">
+                <div className="title-section mb-5">
+                    <h2 className="text-uppercase"><span
+                        className="d-block">Discover</span> The Collections</h2>
                 </div>
-                <div class="row align-items-stretch">
-                    <div class="col-lg-8">
-                        <div class="product-item sm-height full-height bg-gray">
-                            <a href="#" class="product-category">Women <span>25
+                <div className="row align-items-stretch">
+                    <div className="col-lg-8">
+                        <div className="product-item sm-height full-height bg-gray">
+                            <a href="#" className="product-category">Women <span>25
                                 items</span></a>
                             <img src="assets/images/model_4.png" alt="Image"
-                                class="img-fluid" />
+                                className="img-fluid" />
                         </div>
                     </div>
-                    <div class="col-lg-4">
-                        <div class="product-item sm-height bg-gray mb-4">
-                            <a href="#" class="product-category">Men <span>25
+                    <div className="col-lg-4">
+                        <div className="product-item sm-height bg-gray mb-4">
+                            <a href="#" className="product-category">Men <span>25
                                 items</span></a>
                             <img src="assets/images/model_5.png" alt="Image"
-                                class="img-fluid" />
+                                className="img-fluid" />
                         </div>
-                        <div class="product-item sm-height bg-gray">
-                            <a href="#" class="product-category">Shoes <span>25
+                        <div className="product-item sm-height bg-gray">
+                            <a href="#" className="product-category">Shoes <span>25
                                 items</span></a>
                             <img src="assets/images/model_6.png" alt="Image"
-                                class="img-fluid" />
+                                className="img-fluid" />
                         </div>
                     </div>
                 </div>

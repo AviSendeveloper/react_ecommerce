@@ -2,21 +2,21 @@ import React from 'react'
 
 const HomeBanner = () => {
     return (
-        <div class="site-blocks-cover" data-aos="fade">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 ml-auto order-md-2 align-self-start">
-                        <div class="site-block-cover-content">
-                            <h2 class="sub-title">#New Summer Collection 2019
+        <div className="site-blocks-cover" data-aos="fade">
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-6 ml-auto order-md-2 align-self-start">
+                        <div className="site-block-cover-content">
+                            <h2 className="sub-title">#New Summer Collection 2019
                             </h2>
                             <h1>Arrivals Sales</h1>
-                            <p><a href="#" class="btn btn-black rounded-0">Shop
+                            <p><a href="#" className="btn btn-black rounded-0">Shop
                                 Now</a></p>
                         </div>
                     </div>
-                    <div class="col-md-6 order-1 align-self-end">
+                    <div className="col-md-6 order-1 align-self-end">
                         <img src="assets/images/model_3.png" alt="Image"
-                            class="img-fluid" />
+                            className="img-fluid" />
                     </div>
                 </div>
             </div>

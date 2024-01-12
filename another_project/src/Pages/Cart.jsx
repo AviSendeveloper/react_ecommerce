@@ -6,11 +6,9 @@ import BreadCrum from '../Components/BreadCrum';
 
 const Cart = () => {
   return (
-    <div class="site-wrap">
-      <Navbar />
+    <div className="site-wrap">
       <BreadCrum />
       <CartList />
-      <Footer />
     </div>
   )
 }

@@ -7,12 +7,10 @@ import FeatureCollection from '../Components/FeatureCollection'
 
 const ShopSingle = () => {
   return (
-    <div class="site-wrap">
-      <Navbar />
+    <div className="site-wrap">
       <BreadCrum />
       <ItemDescription />
       <FeatureCollection />
-      <Footer />
     </div>
   )
 }

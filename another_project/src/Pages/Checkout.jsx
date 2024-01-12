@@ -6,11 +6,9 @@ import Footer from '../Components/Footer'
 
 const Checkout = () => {
   return (
-    <div class="site-wrap">
-      <Navbar />
+    <div className="site-wrap">
       <BreadCrum />
       <CheckoutForm />
-      <Footer />
     </div>
   )
 }

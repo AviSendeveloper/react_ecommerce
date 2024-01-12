@@ -7,12 +7,10 @@ import ContactForm from '../Components/ContactForm'
 
 const Contact = () => {
   return (
-    <div class="site-wrap">
-      <Navbar />
+    <div className="site-wrap">
       <ContactBanner />
       <BreadCrum />
       <ContactForm />
-      <Footer />
     </div>
   )
 }

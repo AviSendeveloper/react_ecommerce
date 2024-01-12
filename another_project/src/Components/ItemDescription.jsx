@@ -2,84 +2,84 @@ import React from 'react'
 
 const ItemDescription = () => {
     return (
-        <div class="site-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="item-entry">
+        <div className="site-section">
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-6">
+                        <div className="item-entry">
                             <a href="#"
-                                class="product-item md-height bg-gray d-block">
+                                className="product-item md-height bg-gray d-block">
                                 <img src="assets/images/prod_2.png" alt="Image"
-                                    class="img-fluid" />
+                                    className="img-fluid" />
                             </a>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <h2 class="text-black">Gray Shoe</h2>
+                    <div className="col-md-6">
+                        <h2 className="text-black">Gray Shoe</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing
                             elit. Pariatur, vitae, explicabo? Incidunt facere,
                             natus soluta dolores iusto! Molestiae expedita
                             veritatis nesciunt doloremque sint asperiores fuga
                             voluptas, distinctio, aperiam, ratione dolore.</p>
-                        <p class="mb-4">Ex numquam veritatis debitis minima quo
+                        <p className="mb-4">Ex numquam veritatis debitis minima quo
                             error quam eos dolorum quidem perferendis. Quos
                             repellat dignissimos minus, eveniet nam voluptatibus
                             molestias omnis reiciendis perspiciatis illum hic
                             magni iste, velit aperiam quis.</p>
-                        <p><strong class="text-primary h4">$50.00</strong></p>
-                        <div class="mb-1 d-flex">
-                            <label for="option-sm" class="d-flex mr-3 mb-3">
-                                <span class="d-inline-block mr-2"
+                        <p><strong className="text-primary h4">$50.00</strong></p>
+                        <div className="mb-1 d-flex">
+                            <label for="option-sm" className="d-flex mr-3 mb-3">
+                                <span className="d-inline-block mr-2"
                                     style={{ top: "-2px", position: "relative" }}><input
                                         type="radio" id="option-sm"
                                         name="shop-sizes" /></span> <span
-                                            class="d-inline-block text-black">Small</span>
+                                            className="d-inline-block text-black">Small</span>
                             </label>
-                            <label for="option-md" class="d-flex mr-3 mb-3">
-                                <span class="d-inline-block mr-2"
+                            <label for="option-md" className="d-flex mr-3 mb-3">
+                                <span className="d-inline-block mr-2"
                                     style={{ top: "-2px", position: "relative" }}><input
                                         type="radio" id="option-md"
                                         name="shop-sizes" /></span> <span
-                                            class="d-inline-block text-black">Medium</span>
+                                            className="d-inline-block text-black">Medium</span>
                             </label>
-                            <label for="option-lg" class="d-flex mr-3 mb-3">
-                                <span class="d-inline-block mr-2"
+                            <label for="option-lg" className="d-flex mr-3 mb-3">
+                                <span className="d-inline-block mr-2"
                                     style={{ top: "-2px", position: "relative" }}><input
                                         type="radio" id="option-lg"
                                         name="shop-sizes" /></span> <span
-                                            class="d-inline-block text-black">Large</span>
+                                            className="d-inline-block text-black">Large</span>
                             </label>
-                            <label for="option-xl" class="d-flex mr-3 mb-3">
-                                <span class="d-inline-block mr-2"
+                            <label for="option-xl" className="d-flex mr-3 mb-3">
+                                <span className="d-inline-block mr-2"
                                     style={{ top: "-2px", position: "relative" }}><input
                                         type="radio" id="option-xl"
                                         name="shop-sizes" /></span> <span
-                                            class="d-inline-block text-black"> Extra
+                                            className="d-inline-block text-black"> Extra
                                     Large</span>
                             </label>
                         </div>
-                        <div class="mb-5">
-                            <div class="input-group mb-3"
+                        <div className="mb-5">
+                            <div className="input-group mb-3"
                                 style={{ "max-width": "120px" }}>
-                                <div class="input-group-prepend">
+                                <div className="input-group-prepend">
                                     <button
-                                        class="btn btn-outline-primary js-btn-minus"
+                                        className="btn btn-outline-primary js-btn-minus"
                                         type="button">&minus;</button>
                                 </div>
                                 <input type="text"
-                                    class="form-control text-center" value="1"
+                                    className="form-control text-center" value="1"
                                     placeholder=""
                                     aria-label="Example text with button addon"
                                     aria-describedby="button-addon1" />
-                                <div class="input-group-append">
+                                <div className="input-group-append">
                                     <button
-                                        class="btn btn-outline-primary js-btn-plus"
+                                        className="btn btn-outline-primary js-btn-plus"
                                         type="button">&plus;</button>
                                 </div>
                             </div>
                         </div>
                         <p><a href="cart.html"
-                            class="buy-now btn btn-sm height-auto px-4 py-3 btn-primary">Add
+                            className="buy-now btn btn-sm height-auto px-4 py-3 btn-primary">Add
                             To Cart</a></p>
                     </div>
                 </div>

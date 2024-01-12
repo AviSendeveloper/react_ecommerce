@@ -8,13 +8,11 @@ import Footer from '../Components/Footer'
 
 const Shop = () => {
   return (
-    <div class="site-wrap">
-      <Navbar />
+    <div className="site-wrap">
       <ShopBanner />
       <BreadCrum />
       <ShopList />
       <NewCollection />
-      <Footer />
     </div>
   )
 }

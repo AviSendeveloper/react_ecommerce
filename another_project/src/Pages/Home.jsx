@@ -11,14 +11,12 @@ const Home = () => {
   return (
     <div>
       <div>
-        <div class="site-wrap">
-          <Navbar />
+        <div className="site-wrap">
           <HomeBanner />
           <NewCollection />
           <PopularProduct />
           <MostRated />
           <HomeFooterBanner />
-          <Footer />
         </div>
       </div>
     </div>

@@ -2,86 +2,86 @@ import React from 'react'
 
 const ContactForm = () => {
     return (
-        <div class="site-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2 class="h3 mb-3 text-black">Get In Touch</h2>
+        <div className="site-section">
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-12">
+                        <h2 className="h3 mb-3 text-black">Get In Touch</h2>
                     </div>
-                    <div class="col-md-7">
+                    <div className="col-md-7">
                         <form action="#" method="post">
-                            <div class="p-3 p-lg-5 border">
-                                <div class="form-group row">
-                                    <div class="col-md-6">
+                            <div className="p-3 p-lg-5 border">
+                                <div className="form-group row">
+                                    <div className="col-md-6">
                                         <label for="c_fname"
-                                            class="text-black">First Name <span
-                                                class="text-danger">*</span></label>
-                                        <input type="text" class="form-control"
+                                            className="text-black">First Name <span
+                                                className="text-danger">*</span></label>
+                                        <input type="text" className="form-control"
                                             id="c_fname" name="c_fname" />
                                     </div>
-                                    <div class="col-md-6">
+                                    <div className="col-md-6">
                                         <label for="c_lname"
-                                            class="text-black">Last Name <span
-                                                class="text-danger">*</span></label>
-                                        <input type="text" class="form-control"
+                                            className="text-black">Last Name <span
+                                                className="text-danger">*</span></label>
+                                        <input type="text" className="form-control"
                                             id="c_lname" name="c_lname" />
                                     </div>
                                 </div>
-                                <div class="form-group row">
-                                    <div class="col-md-12">
+                                <div className="form-group row">
+                                    <div className="col-md-12">
                                         <label for="c_email"
-                                            class="text-black">Email <span
-                                                class="text-danger">*</span></label>
-                                        <input type="email" class="form-control"
+                                            className="text-black">Email <span
+                                                className="text-danger">*</span></label>
+                                        <input type="email" className="form-control"
                                             id="c_email" name="c_email"
                                             placeholder="" />
                                     </div>
                                 </div>
-                                <div class="form-group row">
-                                    <div class="col-md-12">
+                                <div className="form-group row">
+                                    <div className="col-md-12">
                                         <label for="c_subject"
-                                            class="text-black">Subject </label>
-                                        <input type="text" class="form-control"
+                                            className="text-black">Subject </label>
+                                        <input type="text" className="form-control"
                                             id="c_subject" name="c_subject" />
                                     </div>
                                 </div>
-                                <div class="form-group row">
-                                    <div class="col-md-12">
+                                <div className="form-group row">
+                                    <div className="col-md-12">
                                         <label for="c_message"
-                                            class="text-black">Message </label>
+                                            className="text-black">Message </label>
                                         <textarea name="c_message"
                                             id="c_message" cols="30" rows="7"
-                                            class="form-control"></textarea>
+                                            className="form-control"></textarea>
                                     </div>
                                 </div>
-                                <div class="form-group row">
-                                    <div class="col-lg-12">
+                                <div className="form-group row">
+                                    <div className="col-lg-12">
                                         <input type="submit"
-                                            class="btn btn-primary btn-lg btn-block"
+                                            className="btn btn-primary btn-lg btn-block"
                                             value="Send Message" />
                                     </div>
                                 </div>
                             </div>
                         </form>
                     </div>
-                    <div class="col-md-5 ml-auto">
-                        <div class="p-4 border mb-3">
+                    <div className="col-md-5 ml-auto">
+                        <div className="p-4 border mb-3">
                             <span
-                                class="d-block text-primary h6 text-uppercase">New
+                                className="d-block text-primary h6 text-uppercase">New
                                 York</span>
-                            <p class="mb-0">203 Fake St. Mountain View, San
+                            <p className="mb-0">203 Fake St. Mountain View, San
                                 Francisco, California, USA</p>
                         </div>
-                        <div class="p-4 border mb-3">
+                        <div className="p-4 border mb-3">
                             <span
-                                class="d-block text-primary h6 text-uppercase">London</span>
-                            <p class="mb-0">203 Fake St. Mountain View, San
+                                className="d-block text-primary h6 text-uppercase">London</span>
+                            <p className="mb-0">203 Fake St. Mountain View, San
                                 Francisco, California, USA</p>
                         </div>
-                        <div class="p-4 border mb-3">
+                        <div className="p-4 border mb-3">
                             <span
-                                class="d-block text-primary h6 text-uppercase">Canada</span>
-                            <p class="mb-0">203 Fake St. Mountain View, San
+                                className="d-block text-primary h6 text-uppercase">Canada</span>
+                            <p className="mb-0">203 Fake St. Mountain View, San
                                 Francisco, California, USA</p>
                         </div>
                     </div>
